@@ -47,7 +47,8 @@ public class SplashActivity extends AppCompatActivity {
 
                     @Override
                     public void onAnimationEnd(Animation animation) {
-
+                        ActivityUtulities.getInstance().invokeNewActivity(SplashActivity.this,
+                                MainActivity.class, true);
                     }
 
                     @Override
