@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Quiz Application</string>
+    <string name="textAppName">Quiz Application</string>
+    <string name="textDescription">Проверь свои знания</string>
 </resources>
